@@ -20,6 +20,28 @@ A classe `FilaCarros` gerencia a fila de carros, oferecendo operações como adi
 
 A classe `FilaDrones` gerencia a fila de drones, oferecendo operações como adicionar e remover drones, além de imprimir a fila.
 
-## Uso do Software
+**Funcionalidades Principais:**
+
+✅ **Adição e Remoção de Veículos:** O sistema permite adicionar carros e drones à fila, fornecendo uma interface intuitiva para inserir informações como marca, modelo, portas (para carros) e quantidade de hélices (para drones).
+
+🔄 **Operações de Fila:** As operações básicas de fila, como adicionar e remover, foram implementadas de forma eficiente para garantir uma experiência de usuário suave.
+
+📊 **Visualização das Filas:** O software oferece a capacidade de visualizar as filas de carros e drones, proporcionando uma visão instantânea do estado atual.
+
+**Exemplo de Uso:**
+
+```python
+# Exemplo de código de uso
+# ...
+
+# Adicionando um carro à fila
+marca = input("Marca do carro: ")
+modelo = input("Qual o modelo do carro: ")
+portas = input("Quantidade de portas: ")
+carro = Carro(marca, modelo, portas)
+filaCarros.add(carro)
+
+# ...
+```
 
 O código principal cria instâncias de carros e drones, em seguida, entra em um loop de menu interativo para realizar operações na fila. O menu oferece opções para adicionar e remover carros e drones, bem como imprimir as filas.
